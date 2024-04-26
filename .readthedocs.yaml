@@ -24,3 +24,8 @@ conda:
   environment: environment.yml
   #install:
   #  - requirements: docs/requirements.txt
+
+  python:
+  install:
+    - method: pip
+      path: .
