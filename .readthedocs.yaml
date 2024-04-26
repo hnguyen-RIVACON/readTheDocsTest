@@ -29,3 +29,4 @@ python:
   install:
     - method: pip
       path: .
+    - requirements: mkdocstrings_python_for_vba/docs/requirements.txt
