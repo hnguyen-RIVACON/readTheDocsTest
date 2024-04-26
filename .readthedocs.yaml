@@ -21,9 +21,9 @@ build:
     python: "mambaforge-22.9"
 
 conda:
-  environment: environment.yml
-  #install:
-  #  - requirements: docs/requirements.txt
+  #environment: environment.yml
+  install:
+    - requirements: mkdocstrings_python_for_vba/docs/requirements.txt
 
 python:
   install:
