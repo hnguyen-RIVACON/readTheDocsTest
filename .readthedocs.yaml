@@ -11,8 +11,8 @@ version: 2
 
 # Build documentation with MkDocs
 mkdocs:
-  configuration: mkdocs.yml
-#  configuration: mkdocstrings_python_for_vba/mkdocs.yml
+#  configuration: mkdocs.yml
+  configuration: mkdocstrings_python_for_vba/mkdocs.yml
 
 # Set the version of Python and other tools you might need
 build:
