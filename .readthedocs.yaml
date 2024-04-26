@@ -28,5 +28,5 @@ build:
 python:
   install:
     - method: pip
-      path: .
+      #path: .
     - requirements: mkdocstrings_python_for_vba/docs/requirements.txt
