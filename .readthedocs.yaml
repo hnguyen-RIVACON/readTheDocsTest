@@ -17,8 +17,8 @@ mkdocs:
 # Set the version of Python and other tools you might need
 build:
   os: ubuntu-22.04
-#  tools:
-#    python: "mambaforge-22.9"
+  tools:
+    python: "3.12" #"mambaforge-22.9"
 
 #conda:
   #environment: environment.yml
