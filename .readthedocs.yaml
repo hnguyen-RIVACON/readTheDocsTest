@@ -15,15 +15,15 @@ mkdocs:
   configuration: mkdocstrings_python_for_vba/mkdocs.yml
 
 # Set the version of Python and other tools you might need
-build:
-  os: ubuntu-22.04
-  tools:
-    python: "mambaforge-22.9"
+#build:
+#  os: ubuntu-22.04
+#  tools:
+#    python: "mambaforge-22.9"
 
-conda:
+#conda:
   #environment: environment.yml
-  install:
-    - requirements: mkdocstrings_python_for_vba/docs/requirements.txt
+  #install:
+  #  - requirements: mkdocstrings_python_for_vba/docs/requirements.txt
 
 python:
   install:
