@@ -14,9 +14,11 @@ mkdocs:
   configuration: mkdocs.yml
 #  configuration: mkdocstrings_python_for_vba/mkdocs.yml
 
-# Optionally set the version of Python and requirements required to build your docs
-python:
-  version: 3.8
+# Set the version of Python and other tools you might need
+build:
+  os: Windows
+  tools:
+    python: "3.12"
 
 conda:
   environment: environment.yml
